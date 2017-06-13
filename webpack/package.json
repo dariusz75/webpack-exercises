@@ -1,0 +1,18 @@
+{
+  "name": "webpack-environment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "npm run clean",
+    "build": "webpack",
+    "clean": "rimraf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^2.6.1",
+    "webpack": "^2.6.1"
+  }
+}
